@@ -1,0 +1,72 @@
+# sent_id = 2003Armeniya.xml_1
+# text = В советский период времени число ИТ- специалистов в Армении составляло около десяти тысяч.
+1	В	в	ADP	_	_	3	case	3:case	_
+2	советский	советский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	3:amod	_
+3	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	11:obl:в:acc	_
+4	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	3:nmod:gen	_
+5	число	число	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	11:obj	_
+6	ИТ	ИТ	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	compound	8:compound	SpaceAfter=No
+7	-	-	PUNCT	_	_	6	punct	6:punct	_
+8	специалистов	специалист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	5:nmod:gen	_
+9	в	в	ADP	_	_	10	case	10:case	_
+10	Армении	Армения	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	5:nmod:в:loc	_
+11	составляло	составлять	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+12	около	около	ADP	_	_	14	case	14:case	_
+13	десяти	десять	NUM	_	Case=Gen|NumType=Card	14	nummod	14:nummod	_
+14	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nsubj	11:nsubj	SpaceAfter=No
+15	.	.	PUNCT	_	_	11	punct	11:punct	_
+
+# sent_id = 2003Armeniya.xml_2
+# text = Доставшийся в наследство от советского периода времени промышленный и интеллектуальный потенциал оказался благом и горем страны.
+1	Доставшийся	достаться	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	11	acl	11:acl	_
+2	в	в	ADP	_	_	3	case	3:case	_
+3	наследство	наследство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obl	1:obl:в:acc	_
+4	от	от	ADP	_	_	6	case	6:case	_
+5	советского	советский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	6:amod	_
+6	периода	период	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	3:nmod:от:gen	_
+7	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	6:nmod:gen	_
+8	промышленный	промышленный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	11:amod	_
+9	и	и	CCONJ	_	_	10	cc	10:cc	_
+10	интеллектуальный	интеллектуальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	conj	8:conj|11:amod	_
+11	потенциал	потенциал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	12:nsubj	_
+12	оказался	оказаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	0:root	_
+13	благом	благо	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	12:obl:ins	_
+14	и	и	CCONJ	_	_	15	cc	15:cc	_
+15	горем	горе	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	conj	12:obl:ins|13:conj	_
+16	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	15:nmod:gen	SpaceAfter=No
+17	.	.	PUNCT	_	_	12	punct	12:punct	_
+
+# sent_id = 2003Armeniya.xml_3
+# text = С одной стороны, квалифицированные кадры и развитая производственная инфраструктура резко отличали Армению от других регионов СССР, где доминировали добывающие отрасли, а экономика строилась на поставке сырьевых ресурсов.
+1	С	с	ADP	_	_	3	case	3:case	_
+2	одной	один	NUM	_	Case=Gen|Gender=Fem|NumType=Card	3	nummod	3:nummod	_
+3	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	parataxis	12:parataxis	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	3:punct	_
+5	квалифицированные	квалифицировать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	6:amod	_
+6	кадры	кадр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	12:nsubj	_
+7	и	и	CCONJ	_	_	10	cc	10:cc	_
+8	развитая	развить	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	10:amod	_
+9	производственная	производственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	10:amod	_
+10	инфраструктура	инфраструктура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	conj	6:conj|12:nsubj	_
+11	резко	резко	ADV	_	Degree=Pos	12	advmod	12:advmod	_
+12	отличали	отличать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+13	Армению	Армения	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	12:obj	_
+14	от	от	ADP	_	_	16	case	16:case	_
+15	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	16:amod	_
+16	регионов	регион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	12:obl:от:gen	_
+17	СССР	СССР	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	16:nmod:gen	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	20:punct	_
+19	где	где	ADV	_	Degree=Pos	20	advmod	20:advmod	_
+20	доминировали	доминировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	16	acl:relcl	16:acl:relcl	_
+21	добывающие	добывать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	22	amod	22:amod	_
+22	отрасли	отрасль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	20	nsubj	20:nsubj	SpaceAfter=No
+23	,	,	PUNCT	_	_	26	punct	26:punct	_
+24	а	а	CCONJ	_	_	26	cc	26:cc	_
+25	экономика	экономика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	nsubj:pass	26:nsubj:pass	_
+26	строилась	строить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	20	conj	16:acl:relcl|20:conj	_
+27	на	на	ADP	_	_	28	case	28:case	_
+28	поставке	поставка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	obl	26:obl:на:loc	_
+29	сырьевых	сырьевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	30:amod	_
+30	ресурсов	ресурс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	28:nmod:gen	SpaceAfter=No
+31	.	.	PUNCT	_	_	12	punct	12:punct	_
+
