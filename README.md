@@ -40,6 +40,7 @@ Quickpass: принять участие в любом соревновании 
 5. Ensembles
 6. Embeddings
 7. Clustering
+8. Отчет по [соревнованию](https://www.kaggle.com/competitions/new-york-city-taxi-fare-prediction)
 
 #### 1 семестр
 
